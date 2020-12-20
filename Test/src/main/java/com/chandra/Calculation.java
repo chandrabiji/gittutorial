@@ -6,6 +6,10 @@ public class Calculation {
 		return i+j;
 	}
 
+	public int sub(int i, int j){
+		return i-j;
+	}
+
 	public static void main(String[] args) {
 		Calculation c = new Calculation();
 		System.out.println(c.add(10, 15));
